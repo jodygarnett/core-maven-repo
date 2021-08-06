@@ -16,7 +16,7 @@ This maven repository should not be used directly, it is cached at repo.osgeo.or
 
 This maven respository is not intended for direct use, it was setup for GeoNetwork 2.10 and use as a submodule via a local file reference.
 
-If you find an older codebase such as GeoNetwork 3.0.x please update you `~/.m2/settings.xml` to mirror `core-maven-repo`:
+If you find a codebase (such as GeoNetwork 3.0.x) with direct use please update `~/.m2/settings.xml` to mirror `core-maven-repo`:
 ```
 <mirrors>
   </mirror><mirror>
